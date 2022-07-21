@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' sans-serif;
+}
+
+body{
+    background: #2596be;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.container{
+    background: #fff;
+    width: 500px;
+    height: 300px;
+    margin-top: 150px;
+    border-radius: 25px;
+    padding: 30px;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16);
+}
+.container h2{
+    font-size: xx-large;
+    margin-left: 110px;
+}
+.quote-area{
+    height: 120px;
+    position: relative;
+}
+.quote-area img{
+    width: 17px;
+    height: 17px;
+}
+.quote{
+    margin-top: 50px;
+    font-size: large;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 80px;
+}
+::-webkit-scrollbar{
+    width: 6px;
+}
+::-webkit-scrollbar-thumb{
+    background: lightgray;
+    border-radius: 12px;
+}
+.author{
+    margin-top: 10px;
+    margin-left: auto;
+    width: max-content;
+    margin-right: 30px;
+    font-weight: 600;
+    font-size: large;
+    font-style: italic;
+}
+.bottom{
+    display: flex;
+}
+.bottom img{
+    width: 42px;
+    height: 42px;
+    margin: 0 5px 0;
+    background: #fefefe;
+    border: none;
+    padding: 8px;
+    border-radius: 45%;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16),
+    10px 10px 5px 1px rgba(10, 99, 169, 0.16);
+}
+.bottom img:hover{
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16);
+    background: #fff;
+    border: none;
+    transition: 0.4s;
+}
+.bottom button{
+    margin-left: 160px;
+    background: #2596be;
+    color: #fff;
+    height: 37px;
+    border-radius: 15px;
+    outline: none;
+    border: none;
+    font-size: medium;
+    padding: 0 10px 0 10px;
+    width: 180px;
+    cursor: pointer;
+}
+.bottom button:hover{
+    border: 1px solid #2596be;
+    background: #fff;
+    color: #2596be;
+    box-shadow: 10px 10px 10px -1px rgba(10, 99, 169, 0.16);
+    transition: 0.4s;
+    font-weight: 600;
+    width:180px;
+}
